@@ -1,3 +1,4 @@
 let ChangeName = () => {
-    document.getElementById("inputName").innerHTML = "Hello! I'm Cheewathun"
+    let name = prompt("What is your name?");
+    document.getElementById("inputName").innerHTML = `Hello! I'm ${name}`
 }
